@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+
+}header{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em 0;
+  align-items: center;
+
+}header #brand{
+  font-size: 4em;
+  font-family: 'Irish Grover', cursive;
+}
+
+#canvas{
+  border: 1px solid black;
+}
+
+.row{
+  display: flex;
+/*buttons*/
+}
+button{
+ width: 30px;
+ height: 30px;
+ margin: 1em 1.5em 1.5em 0;
+ border-radius:100%;
+ cursor: pointer;
+}
+.buttons-heading{
+font-size: 2em;
+}
+
+#pink-btn{
+  background: pink;
+}
+#black-btn{
+  background: black;
+}
+#blue-btn{
+  background: blue;
+}
+#red-btn{
+  background: red;
+}
+#green-btn{
+  background: green;
+}
+#yellow-btn{
+  background: yellow;
+}
+#orange-btn{
+  background: orange;
+}
+#purple-btn{
+  background: purple;
+}
+#brown-btn{
+  background: brown;
+
+}
+#grey-btn{
+  background: grey;
+}
+
+
+/*mobile friendly*/
+
+
+@media (max-width:750px){
+header #brand{
+  font-size: 3em;
+}button{
+  width: 25px;
+  height: 25px;
+}.buttons-heading{
+  font-size: 1.5em;
+}
+}
